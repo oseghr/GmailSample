@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<!--Gmail icon-->	
+			<link href="favicon.ico" rel="icon" type="image/ico">
+			<title>Gmail - Free Storage and Email from Google</title>
+			<link rel="stylesheet" type="text/css" href="formstyle.css">
+		</head>
+
+		<body>
+			<!--Navigation bar-->
+			<div id="nav">
+				<a href="index.html" id="gmail"><img src="img2.png" alt="Gmail"></a>
+				<a href="form.html" class="create">New Users</a>
+				<a href="#" id="signin">Login Here</a>
+				<a href="#" id="forwork">Already a User</a>
+			</div>
+
+			<!--Name -->
+			<div id="main">
+				<h2>Create an Account</h2><hr>
+				<form>
+					<div id="name">
+						<input type="text" placeholder='Firstname' name="firstname">
+						<input type="text" placeholder='Lastname' name="lastname"><br>
+					</div>
+
+			<!--Choose username-->
+					<div id="username">
+						<input type="text" placeholder='Choose Username @gmail.com' name="username"><br>
+					</div>
+
+			<!--Create  & Confirm password-->
+					<div id="password">
+						
+						<input type="password" placeholder='Create Password' name="psw">
+						<input type="password" placeholder='Confirm Password' name="psw">
+
+					</div>
+
+			<!--Birthday -->
+					<div id="dob">
+						Date of Birth: <input type="date" name="bday">
+					</div>
+
+			<!--Gender-->
+					<div id="gender">
+						Gender:
+						<input type="radio" name="gender" value="male" checked> Male
+						<input type="radio" name="gender" value="female"> Female
+						<input type="radio" name="gender" value="other"> Other
+					</div>
+
+			<!--Mobile phone-->
+					<div id="mobile">
+						<input type="tel" placeholder="Mobile Phone" name="usrtel">
+					</div>
+
+			<!--Current email-->
+					<div id="cemail">
+						<input type="email" placeholder="E-mail Address" name="email">
+					</div>
+
+			<!--Location-->
+					<div id="locale">
+						<input list="Country" placeholder="Location">
+						<datalist id="Country">
+							<option value="Nigeria" selected>
+						    <option value="Germany">
+						    <option value="United Kingdom">
+						    <option value="United States">
+						    <option value="China">
+						</datalist>
+					</div>
+
+			<!--Optional and Favourite food--> 
+					<div id="fav">
+						<select name="cars">
+							<option value="volvo">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="fiat">Fiat</option>
+							<option value="audi">Audi</option>
+						</select><br>
+
+					</div>
+			
+			<!--Submit and Clear Button-->
+					<div id="terms">
+						<input type="checkbox" name="vehicle1" value="Bike"> Stayed Sign in
+						<input type="checkbox" name="vehicle2" value="Car"> Accept Terms and Conditions<br>
+					</div>
+					<div id="submit">
+						<input type="submit" value="Submit">
+						<input type="Reset">
+					</div>
+				</form>
+			</div>
+
+				<!--Multi-Colored Line-->
+				<div id="line">
+					<div id="green"></div>
+					<div id="yellow"></div>
+					<div id="red"></div>
+					<div id="blue"></div>
+				</div>
+
+
+				<!--Footer-->
+				<div id="footer">
+					<img src="img13.jpg"><br>
+					<a href="#">Our policy</a>
+					<a href="#">Help</a>
+					<a href="#">For work</a><br>
+					<p>Google Copyright &copy 2018</p>
+				</div>
+		</body>
+	</html>

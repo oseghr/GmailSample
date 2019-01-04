@@ -1,0 +1,452 @@
+	/* Universal Selectors */
+	body {
+		padding:0px;
+		margin:0px;
+		font-family: 'Segoe UI','Helvetica',arial,sans-serif;
+		margin:auto; 
+	}
+	
+	h2 {
+		/*line-height: 48px; */
+		font-weight: 200;  
+		font-size:42px;
+	}
+
+	p {
+		font-weight: 200;  
+	}
+	
+	/* Navigation bar */
+	#nav {
+		width:100%;
+		height: 64px;
+		position: fixed;
+		top:0px;
+		left:0px;
+		background-color:white;
+		box-shadow: 0 0 20px gray;
+		z-index: 99;
+	}
+	
+	#gmail {
+		padding-right:20px;
+		position:fixed;
+		top: 14px;
+		left:15px;
+	}
+	
+	#forwork, #signin {
+		text-decoration: none;
+		padding:24px 48px;
+		font-size:13px;
+		float:right;
+		color:#747474;
+	}
+	
+	.create {
+		text-decoration: none;
+		padding:24px 48px;
+		font-size:13px;
+		background-color: #dd5347;
+		color:white;
+		float: right;	
+	}
+		
+	#forwork:hover, #signin:hover {
+		color: #dd5347;
+	}
+
+/* Banner pictures */
+	#banner img {
+		width:100%;
+		height: auto;
+		display:block;
+		margin-top: 0px;
+		position:relative;
+    }
+
+    #banner h2 {
+		width:300px;
+		height: 400px;
+		display:block;
+		position:absolute;
+		top:30%;
+		left:10%;
+		color:white;
+    }
+
+    #banner a {
+		display:block;
+		position:absolute;
+		top:80%;
+		left:10%;
+		color:white;
+		text-decoration: none;
+		padding:24px 48px;
+		font-size:13px;
+		background-color: #dd5347;
+		box-shadow: 0 0 20px gray;
+    }
+	
+
+	/* Meet your new inbox */
+	#inbox h2 {
+		text-align:center; 
+		margin:auto; 
+		padding: 100px 20% 15px;
+		position:relative;
+
+    }
+	#inbox p {
+		text-align:center; 
+		display: block; 
+		height: auto; 
+		margin: 0 auto 50px;
+    }
+
+	#inbox img {
+		width:100%;
+		position:relative;
+    }
+	
+	/* Experience Gmail on any devices */
+	#experience {
+		background-color:#f9f9f9; 
+		padding: 5px;
+    }
+	
+	#experience h2 {
+		text-align:center; 
+		margin:auto; 
+		padding: 100px 20% 55px;
+
+    }
+	#experience p {
+		text-align:center; 
+		display: block; 
+		height: auto; 
+		margin: 0 auto;
+    }
+
+	#experience img {
+		display: block; 
+		height: auto; 
+		margin: 0 auto 30px;
+		position:relative;
+    }
+	
+	
+	/* Other devices */
+	
+	#appstore img {
+		width:100%; 
+		margin:0 auto;
+		position:relative;
+    }
+	
+	
+	/* Grayscale */
+	
+	#grayscale {
+		background-color:#f9f9f9; 
+		display:block; 
+		width:100%; 
+		height:510px; 
+		margin:auto;
+    }
+	
+	#grayscale div {
+		width:48%; 
+		height:500px; 
+		float: left; 
+		text-align:center;
+    }
+	
+	#grayscale h2 {
+		margin:200px auto 10px;
+
+    }
+	#grayscale p {
+		padding:10px
+    }
+
+	#grayscaleimg {
+		width:48%; 
+		height:500px; 
+		display:inline; 
+		text-align: center; 
+		float:right; 
+		background:url(img6.jpg) no-repeat center center;
+		position:relative;
+    }
+	
+	/* Custom themes */
+	
+	#themes h2 {
+		display:block; 
+		text-align:center; 
+		clear:both; 
+		padding: 10px; 
+		margin: 100px auto 50px;
+    }
+	
+	#themes1 p {
+		display: block; 
+		text-align:center; 
+		height: auto; 
+		margin: 25px auto;
+    }
+	
+	#themes2 {
+		box-shadow: 0px 0px 20px gray;
+		margin: 40px auto; 
+		height:750px;
+		width:80%;
+		background-image: url(img7.jpg);
+		background-repeat: no-repeat;
+		background-size: 98% 98%;
+		background-position: center;
+		animation: animation1 15s infinite ease;
+		
+		-webkit-animation-name:animation1;
+		-webkit-animation-duration: 15s;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-name:animation1;
+		-moz-animation-duration: 15s;
+		-moz-animation-iteration-count:infinite;
+		-o-animation-name:animation1;
+		-o-animation-duration: 15s;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-name:animation1;
+		-ms-animation-duration: 15s;
+		-ms-animation-iteration-count:infinite;
+		
+	}	
+	
+@keyframes animation1 {
+	5%   {background-image: url(img7.jpg);}
+    30%  {background-image: url(img8.jpg);}
+    55%  {background-image: url(img9.jpg);}
+    80% {background-image: url(img10.jpg);}
+	100%   {background-image: url(img7.jpg);}
+}
+@-webkit-keyframes animation1 {
+	0%   {background-image: url(img7.jpg);}
+    25%  {background-image: url(img8.jpg);}
+    50%  {background-image: url(img9.jpg);}
+    100% {background-image: url(img10.jpg);}
+	}
+@-moz-keyframes animation1 {
+	0%   {background-image: url(img7.jpg);}
+    25%  {background-image: url(img8.jpg);}
+    50%  {background-image: url(img9.jpg);}
+    100% {background-image: url(img10.jpg);}
+	}
+
+@-o-keyframes animation1 {
+	0%   {background-image: url(img7.jpg);}
+    25%  {background-image: url(img8.jpg);}
+    50%  {background-image: url(img9.jpg);}
+    100% {background-image: url(img10.jpg);}
+	}
+
+/* The element to apply the animation to 
+	@keyframes animation1 {
+		width:100%; 
+		height:auto; 
+		margin:auto; 
+		position:relative;
+	    animation-name: themes2;
+	    animation-duration: 4s;
+	}*/
+
+	
+	/* Inbox actions */
+	
+	#action {
+		background-color:#f9f9f9; 
+		padding: 50px 50px 0px 50px; 
+		margin:auto;
+    }
+	
+	#action h2 {
+		text-align:center; 
+		margin:auto; 
+		padding: 100px 20% 55px;
+    }
+
+	#action p {
+		text-align:center;
+		display: block; 
+		height: auto; 
+		margin: 0 auto;
+    }
+
+	#action img {
+		display: block;
+		text-align: center; 
+		height: auto; 
+		margin: 0 auto;
+		width:70%; 
+		height:80%;
+		position:relative;
+    }
+
+	/* The Switch */
+
+	#switchimg {
+		margin:auto;
+		position:relative;
+		padding:50px 0px 50px 50px;
+		width:60%; 
+		height:70%;
+		float:left
+    }
+	
+	#switch h2 {
+		padding: 250px 0 0 5px;
+		text-align:left;
+    }
+
+	#switch p {
+		text-align:left;
+    }
+
+
+	/* Before footer */
+	
+	#bfooter {
+		background-color:#f9f9f9; 
+		display:block; 
+		text-align: center; 
+		margin: 100px 0px 0px; 
+		clear:both; 
+		padding: 50px;
+    }
+	
+	#bfooter h2 {
+		display:block; 
+		text-align:center; 
+		clear:both; 
+		padding: 150px auto 10px; 
+		margin: 100px auto 50px;
+    }
+	
+	#bfooter p {
+		display: block; 
+		text-align:center; 
+		height: auto; 
+		margin: 25px auto;
+    }
+	
+	#learn {
+		margin:20px auto; 
+		list-style-type:none; 
+		text-align:center;
+		padding:24px 48px; 
+		font-weight:bold; 
+		color: #dd5347; 
+		
+    }
+	
+	#getstarted {
+		list-style-type:none;
+		width: 100px;
+		padding: 20px 30px 0;
+		height:50px;
+		margin:auto;
+ 		color:white;
+		background-color:#dd5347; 
+
+    }
+	
+	span {
+		 color:blue;
+		 
+	}
+	/* Multi-Colored Line */
+	
+	#line {
+		width:100%;
+		height:2px;
+		padding-right: 5%; 
+		box-sizing:border-box;
+		/*display:inline-block;*/
+	}
+	
+	#blue {
+		width:2%;
+		height:2px;
+		background-color:blue;
+		display:inline;
+		float:right;
+	}
+	
+	#red {
+		width:2%;
+		height:2px;
+		background-color:red;
+		display:inline;
+		float:right;
+	}
+	
+	#yellow {
+		width:2%;
+		height:2px;
+		background-color:yellow;
+		display:inline;
+		float:right;
+	}
+	
+	#green {
+		width:2%;
+		height:2px;
+		background-color:green;
+		display:inline;
+		float:right;
+		}
+			
+			
+/* Circle scroll */
+	
+	#circle {
+		background: #dd5347;
+		width:50px;
+		height:50px;
+		position:fixed;
+		bottom: 2%;
+		right: 1%;
+		border-radius:50%;
+		box-shadow: 0px 0px 10px gray;
+		color:white;
+	}
+	
+	/* Footer */
+	
+	#footer {
+		background-color:#f9f9f9; 
+		margin: 0; 
+		padding: 70px;
+    }
+	
+	#footer img {
+		display:block; 
+		text-align: left; 
+		margin: 0; 
+    }
+	
+	#footer a {
+		display:inline; 
+		text-align: left;
+		font-weight: 200; 
+    }
+	#footer p {
+		display:block; 
+		text-align: center; 
+    }
+
+
+
+
+
+
