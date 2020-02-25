@@ -1,2 +1,2 @@
 #My Projects
-A repository for my basic web projects
+Recreating gmail accounts home page from scratch HTML, CSS.
